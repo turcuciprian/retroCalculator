@@ -10,9 +10,11 @@ import UIKit
 import AVFoundation
 
 class ViewController: UIViewController {
-    
+    //counter label
+    @IBOutlet weak var outputLabel: UILabel!
     var btnSound: AVAudioPlayer!
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
