@@ -61,7 +61,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mr4-bl-qmn" userLabel="counter Label">
-                                <rect key="frame" x="36" y="57" width="248" height="17"/>
+                                <rect key="frame" x="36" y="55.5" width="248" height="20"/>
                                 <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
