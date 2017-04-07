@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     //counter label
     @IBOutlet weak var outputLabel: UILabel!
     var btnSound: AVAudioPlayer!
+    
+    var runningNumber = ""
 
     
     override func viewDidLoad() {
@@ -31,6 +33,9 @@ class ViewController: UIViewController {
     }
     @IBAction func numberPressed (sender: UIButton){
         playSound()
+        
+        runningNumber += "\(sender.tag)"
+        outputLabel.text = runningNumber
         
     }
     
