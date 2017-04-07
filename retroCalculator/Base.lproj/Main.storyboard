@@ -190,6 +190,12 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mr4-bl-qmn">
+                                <rect key="frame" x="36" y="65" width="303" height="32.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -197,6 +203,7 @@
                             <constraint firstItem="p3k-I9-gBu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6Tb-LI-Wyb"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="czB-ox-hao" secondAttribute="bottom" constant="40" id="7MA-qd-875"/>
                             <constraint firstItem="UsU-9D-g9J" firstAttribute="centerX" secondItem="p3k-I9-gBu" secondAttribute="centerX" id="7Qp-M6-hXD"/>
+                            <constraint firstItem="UsU-9D-g9J" firstAttribute="trailing" secondItem="mr4-bl-qmn" secondAttribute="trailing" constant="20" id="9jD-tJ-Um8"/>
                             <constraint firstItem="UsU-9D-g9J" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="Bsb-hg-5WT"/>
                             <constraint firstItem="E3z-c8-rod" firstAttribute="trailing" secondItem="UsU-9D-g9J" secondAttribute="trailing" id="EbD-ro-5gE"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="p3k-I9-gBu" secondAttribute="bottom" id="Fah-Gb-jig"/>
@@ -213,6 +220,8 @@
                             <constraint firstItem="E3z-c8-rod" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="154" id="jf0-9j-r22"/>
                             <constraint firstItem="xDe-a1-2Sn" firstAttribute="leading" secondItem="p3k-I9-gBu" secondAttribute="leading" id="rpK-3M-eSj"/>
                             <constraint firstItem="E3z-c8-rod" firstAttribute="top" secondItem="UsU-9D-g9J" secondAttribute="bottom" constant="34" id="tAg-qz-zZz"/>
+                            <constraint firstItem="mr4-bl-qmn" firstAttribute="leading" secondItem="UsU-9D-g9J" secondAttribute="leading" constant="20" id="vNc-sz-a1r"/>
+                            <constraint firstItem="mr4-bl-qmn" firstAttribute="top" secondItem="UsU-9D-g9J" secondAttribute="bottom" constant="-55" id="w14-ds-H24"/>
                             <constraint firstItem="xDe-a1-2Sn" firstAttribute="trailing" secondItem="p3k-I9-gBu" secondAttribute="trailing" id="xcb-Fo-vUS"/>
                         </constraints>
                     </view>
