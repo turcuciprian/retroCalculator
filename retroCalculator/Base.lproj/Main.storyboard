@@ -32,16 +32,16 @@
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="counter" translatesAutoresizingMaskIntoConstraints="NO" id="UsU-9D-g9J">
-                                <rect key="frame" x="16" y="40" width="343" height="63"/>
+                                <rect key="frame" x="16" y="40" width="343" height="80"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backpanel" translatesAutoresizingMaskIntoConstraints="NO" id="E3z-c8-rod">
-                                <rect key="frame" x="16" y="137" width="343" height="510"/>
+                                <rect key="frame" x="16" y="154" width="343" height="493"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="493" id="Rq6-dA-Qjz"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="czB-ox-hao" userLabel="numbers">
-                                <rect key="frame" x="41" y="157" width="293" height="470"/>
+                                <rect key="frame" x="41" y="165.5" width="293" height="470"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="OMU-DQ-kuG" userLabel="7,8,9">
                                         <rect key="frame" x="0.0" y="0.0" width="293" height="70"/>
@@ -135,7 +135,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mr4-bl-qmn">
-                                <rect key="frame" x="36" y="48" width="303" height="32.5"/>
+                                <rect key="frame" x="36" y="65" width="303" height="32.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -148,14 +148,12 @@
                             <constraint firstItem="UsU-9D-g9J" firstAttribute="centerX" secondItem="p3k-I9-gBu" secondAttribute="centerX" id="7Qp-M6-hXD"/>
                             <constraint firstItem="UsU-9D-g9J" firstAttribute="trailing" secondItem="mr4-bl-qmn" secondAttribute="trailing" constant="20" id="9jD-tJ-Um8"/>
                             <constraint firstItem="UsU-9D-g9J" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="Bsb-hg-5WT"/>
-                            <constraint firstItem="czB-ox-hao" firstAttribute="top" secondItem="E3z-c8-rod" secondAttribute="top" constant="20" id="EIZ-Wi-BTJ"/>
                             <constraint firstItem="E3z-c8-rod" firstAttribute="trailing" secondItem="UsU-9D-g9J" secondAttribute="trailing" id="EbD-ro-5gE"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="p3k-I9-gBu" secondAttribute="bottom" id="Fah-Gb-jig"/>
                             <constraint firstItem="czB-ox-hao" firstAttribute="centerX" secondItem="E3z-c8-rod" secondAttribute="centerX" id="I2T-Hm-5GX"/>
                             <constraint firstItem="xDe-a1-2Sn" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="LgL-BA-YiB"/>
                             <constraint firstAttribute="trailingMargin" secondItem="UsU-9D-g9J" secondAttribute="trailing" id="MgP-YC-xMe"/>
                             <constraint firstItem="xDe-a1-2Sn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="PlS-e1-3AA"/>
-                            <constraint firstItem="czB-ox-hao" firstAttribute="bottom" secondItem="E3z-c8-rod" secondAttribute="bottom" constant="-20" id="Qlj-u7-SZo"/>
                             <constraint firstItem="E3z-c8-rod" firstAttribute="leading" secondItem="UsU-9D-g9J" secondAttribute="leading" id="SdN-nh-Mta"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="E3z-c8-rod" secondAttribute="bottom" constant="20" id="UbY-UP-qb3"/>
                             <constraint firstItem="E3z-c8-rod" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Zow-zg-Pa3"/>
