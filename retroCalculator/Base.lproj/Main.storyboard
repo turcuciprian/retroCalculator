@@ -22,32 +22,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space-bg" translatesAutoresizingMaskIntoConstraints="NO" id="xDe-a1-2Sn">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="p3k-I9-gBu">
                                 <rect key="frame" x="0.0" y="627" width="375" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="VT0-Gk-q6e"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="counter" translatesAutoresizingMaskIntoConstraints="NO" id="UsU-9D-g9J">
-                                <rect key="frame" x="21" y="55" width="333" height="80"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="0bs-2g-EoS"/>
-                                </constraints>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="backpanel" translatesAutoresizingMaskIntoConstraints="NO" id="E3z-c8-rod">
+                                <rect key="frame" x="-123" y="117" width="620" height="542"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space-bg" translatesAutoresizingMaskIntoConstraints="NO" id="xDe-a1-2Sn">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="counter" translatesAutoresizingMaskIntoConstraints="NO" id="UsU-9D-g9J">
+                                <rect key="frame" x="21" y="30" width="333" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="VxW-HB-4YX"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="UsU-9D-g9J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="0r6-Ba-G7N"/>
                             <constraint firstAttribute="trailing" secondItem="p3k-I9-gBu" secondAttribute="trailing" id="5w3-6m-czz"/>
                             <constraint firstItem="p3k-I9-gBu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6Tb-LI-Wyb"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="UsU-9D-g9J" secondAttribute="trailing" constant="5" id="C2y-Ov-5zq"/>
-                            <constraint firstItem="UsU-9D-g9J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="DTV-fR-Dwp"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="p3k-I9-gBu" secondAttribute="bottom" id="Fah-Gb-jig"/>
                             <constraint firstAttribute="trailing" secondItem="xDe-a1-2Sn" secondAttribute="trailing" id="GnW-Nn-udm"/>
                             <constraint firstItem="xDe-a1-2Sn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="JPp-5f-21o"/>
-                            <constraint firstItem="UsU-9D-g9J" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="35" id="LWn-Ad-3Md"/>
+                            <constraint firstItem="E3z-c8-rod" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="f9P-lK-8p0"/>
+                            <constraint firstItem="UsU-9D-g9J" firstAttribute="centerX" secondItem="E3z-c8-rod" secondAttribute="centerX" id="jzP-hv-XMl"/>
+                            <constraint firstItem="UsU-9D-g9J" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="pjF-D8-EMq"/>
                             <constraint firstItem="xDe-a1-2Sn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xpQ-f2-8Zv"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xDe-a1-2Sn" secondAttribute="bottom" id="zj0-EG-zno"/>
                         </constraints>
@@ -59,6 +63,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="backpanel" width="620" height="938"/>
         <image name="counter" width="516" height="133"/>
         <image name="ground" width="888" height="72"/>
         <image name="space-bg" width="988" height="946"/>
