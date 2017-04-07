@@ -31,35 +31,40 @@
                                     <constraint firstAttribute="height" constant="40" id="VT0-Gk-q6e"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="backpanel" translatesAutoresizingMaskIntoConstraints="NO" id="E3z-c8-rod">
-                                <rect key="frame" x="-123" y="117" width="620" height="542"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="counter" translatesAutoresizingMaskIntoConstraints="NO" id="UsU-9D-g9J">
+                                <rect key="frame" x="16" y="40" width="343" height="80"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="counter" translatesAutoresizingMaskIntoConstraints="NO" id="UsU-9D-g9J">
-                                <rect key="frame" x="21" y="30" width="333" height="80"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backpanel" translatesAutoresizingMaskIntoConstraints="NO" id="E3z-c8-rod">
+                                <rect key="frame" x="16" y="154" width="343" height="493"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="VxW-HB-4YX"/>
+                                    <constraint firstAttribute="height" constant="493" id="Rq6-dA-Qjz"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="UsU-9D-g9J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="0r6-Ba-G7N"/>
                             <constraint firstAttribute="trailing" secondItem="p3k-I9-gBu" secondAttribute="trailing" id="5w3-6m-czz"/>
                             <constraint firstItem="p3k-I9-gBu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6Tb-LI-Wyb"/>
+                            <constraint firstItem="UsU-9D-g9J" firstAttribute="centerX" secondItem="p3k-I9-gBu" secondAttribute="centerX" id="7Qp-M6-hXD"/>
+                            <constraint firstItem="UsU-9D-g9J" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="Bsb-hg-5WT"/>
+                            <constraint firstItem="E3z-c8-rod" firstAttribute="trailing" secondItem="UsU-9D-g9J" secondAttribute="trailing" id="EbD-ro-5gE"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="p3k-I9-gBu" secondAttribute="bottom" id="Fah-Gb-jig"/>
-                            <constraint firstAttribute="trailing" secondItem="xDe-a1-2Sn" secondAttribute="trailing" id="GnW-Nn-udm"/>
-                            <constraint firstItem="xDe-a1-2Sn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="JPp-5f-21o"/>
-                            <constraint firstItem="E3z-c8-rod" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="f9P-lK-8p0"/>
-                            <constraint firstItem="UsU-9D-g9J" firstAttribute="centerX" secondItem="E3z-c8-rod" secondAttribute="centerX" id="jzP-hv-XMl"/>
-                            <constraint firstItem="UsU-9D-g9J" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="pjF-D8-EMq"/>
-                            <constraint firstItem="xDe-a1-2Sn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xpQ-f2-8Zv"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xDe-a1-2Sn" secondAttribute="bottom" id="zj0-EG-zno"/>
+                            <constraint firstItem="xDe-a1-2Sn" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="LgL-BA-YiB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="UsU-9D-g9J" secondAttribute="trailing" id="MgP-YC-xMe"/>
+                            <constraint firstItem="xDe-a1-2Sn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="PlS-e1-3AA"/>
+                            <constraint firstItem="E3z-c8-rod" firstAttribute="leading" secondItem="UsU-9D-g9J" secondAttribute="leading" id="SdN-nh-Mta"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="E3z-c8-rod" secondAttribute="bottom" constant="20" id="UbY-UP-qb3"/>
+                            <constraint firstItem="E3z-c8-rod" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Zow-zg-Pa3"/>
+                            <constraint firstItem="E3z-c8-rod" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="154" id="jf0-9j-r22"/>
+                            <constraint firstItem="xDe-a1-2Sn" firstAttribute="leading" secondItem="p3k-I9-gBu" secondAttribute="leading" id="rpK-3M-eSj"/>
+                            <constraint firstItem="E3z-c8-rod" firstAttribute="top" secondItem="UsU-9D-g9J" secondAttribute="bottom" constant="34" id="tAg-qz-zZz"/>
+                            <constraint firstItem="xDe-a1-2Sn" firstAttribute="trailing" secondItem="p3k-I9-gBu" secondAttribute="trailing" id="xcb-Fo-vUS"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+            <point key="canvasLocation" x="133.59999999999999" y="138.0809595202399"/>
         </scene>
     </scenes>
     <resources>
