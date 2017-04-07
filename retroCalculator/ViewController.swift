@@ -66,7 +66,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onEqualPressed(sender: AnyObject){
-        //processOperation(operation: currentOperation)
+        processOperation(operation: currentOperation)
     }
     
     func playSound(){
@@ -84,13 +84,13 @@ class ViewController: UIViewController {
                 runningNumber = ""
                 
                 if currentOperation == Operation.Multiply{
-                    result = " \(Double(leftValStr)! * Double(rightValStr)!)"
+                    result = "\(Double(leftValStr)! * Double(rightValStr)!)"
                 }else if currentOperation == Operation.Divide{
-                    result = " \(Double(leftValStr)! / Double(rightValStr)!)"
+                    result = "\(Double(leftValStr)! / Double(rightValStr)!)"
                 }else if currentOperation == Operation.Substract{
-                    result = " \(Double(leftValStr)! - Double(rightValStr)!)"
+                    result = "\(Double(leftValStr)! - Double(rightValStr)!)"
                 }else if currentOperation == Operation.Add{
-                    result = " \(Double(leftValStr)! + Double(rightValStr)!)"
+                    result = "\(Double(leftValStr)! + Double(rightValStr)!)"
                 }
                 leftValStr = result
                 outputLabel.text = result
