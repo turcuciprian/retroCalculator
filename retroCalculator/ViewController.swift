@@ -31,6 +31,7 @@ class ViewController: UIViewController {
         playSound()
         
     }
+    
     func playSound(){
         if btnSound.isPlaying {
             btnSound.stop()
