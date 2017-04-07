@@ -15,24 +15,6 @@
         </array>
     </customFonts>
     <scenes>
-        <!--Loading ScreenVC-->
-        <scene sceneID="QH6-Lr-ndE">
-            <objects>
-                <viewController storyboardIdentifier="loadingScreenVC_ID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="dWL-UU-j9R" customClass="loadingScreenVC" customModule="retroCalculator" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="xra-6z-ImO"/>
-                        <viewControllerLayoutGuide type="bottom" id="1mK-OC-I9e"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Kdh-np-mQn">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="75M-xD-eUL" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-501" y="136"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -61,7 +43,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mr4-bl-qmn" userLabel="counter Label">
-                                <rect key="frame" x="36" y="55.5" width="248" height="20"/>
+                                <rect key="frame" x="36" y="57" width="248" height="17"/>
                                 <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
